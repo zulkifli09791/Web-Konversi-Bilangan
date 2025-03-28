@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Konversi Bilangan</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Konversi Bilangan</h1>
+
+        <label for="jenisBilangan">Jenis angka awal:</label>
+        <select id="jenisBilangan">
+            <option value="desimal">Desimal</option>
+            <option value="biner">Biner</option>
+            <option value="oktal">Oktal</option>
+            <option value="heksadesimal">Heksadesimal</option>
+        </select>
+
+        <label for="inputBilangan">Masukkan angka:</label>
+        <input type="text" id="inputBilangan" placeholder="Contoh: 1010">
+
+        <label for="pilihanKonversi">Konversi ke:</label>
+        <select id="pilihanKonversi">
+            <option value="desimal">Desimal</option>
+            <option value="biner">Biner</option>
+            <option value="oktal">Oktal</option>
+            <option value="heksadesimal">Heksadesimal</option>
+        </select>
+
+        <button id="konversiBtn">Konversi</button>
+
+        <h3>Hasil: <span id="hasilKonversi"></span></h3>
+    </div>
+
+    <script src="scriptkonversi.js"></script>
+</body>
+</html>
